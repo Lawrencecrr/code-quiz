@@ -17,4 +17,58 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: var(--secondary);
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid{
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+}
+
+.btn {
+    background-color: var(--primary);
+    border: 2px solid var(--secondary);
+    border-radius: 5px;
+    padding: 10px 10px;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.btn-correct {
+    background-color: green;
+}
+
+.btn-wrong {
+    background-color: red;
+}
+
+.start-btn, .go-back-btn {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* fix so that only the start button is displayed then hides when clicked */
+.hide {
+    display: none;
 }
