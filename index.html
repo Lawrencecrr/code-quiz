@@ -8,49 +8,44 @@
     <title>Quiz</title>
 </head>
 <body>
-    
-    <div class="start-page" id="starting-page">
-        <div class="quiz-header">
-            <h2 id="questions">Welcome To My Quiz</h2>
+    <div id="container">
+        <!-- start section -->
+        <div id="start">Start Quiz</div>
+
+        <!-- directions section -->
+        <div id="direction">
+            <h2>Directions</h2>
+            <h4>You must answer 5 multiple choice questions about Ohio State's football history with 40 seconds on the clock! you will lose 5 seconds for every wrong answer that you choose. Good Luck!</h4>
+            <div id="button">
+                <button id="exit">Exit</button>
+                <button id="exit">Continue</button>
+            </div>
         </div>
 
-        <div class="direction">
-            <p class="welcome">
-                You must answer 5 multiple choice questions about Ohio State's football history with 40 seconds on the clock! You will lose 5 seconds for every wrong answer that you choose. Good Luck!
-            </p>
-            <button id="star">Start</button>
-            <button id="Score">High Scores</button>
-        </div>
-        
-        
-    </div>
-    <div class="questions">
-        <header>
-            <div class="title"></div>
-            <div class="timer">Time Remaining</div>
-            <div class="timer-sec">40</div>
-        </header>
-        <section>
-            <div class="question-1">
-                <span>Who is the winningest coach in Ohio Sate football history?</span>
+        <!-- quiz Section -->
+        <div id="quiz">
+            <div id="quiz-header">
+                <h5>quiz app</h5>
+                <div id="timer">
+                    <h6>Time Left</h6>
+                    <h6 id="time">00</h6>
+                </div>
             </div>
-            <div class="option">
-                <span>Urban Myer</span>
+            
+            <!-- quiz questions -->
+            <div id="question">
+                <h2 id="questionNo">1.</h2>
+                <h2 id="questionText">Who was the two time Heisman trophy winner at Ohio State?</h2>
             </div>
-            <div class="option">
-                <span>Jim Tressel</span>
-            </div>
-            <div class="option">
-                <span>Woody Hayes</span>
-            </div>
-            <div class="option">
-                <span>Ryan Day</span>
-            </div>
-        </section>
 
-        <footer>
-            <button class="nest-btn">Next</button>
-        </footer>
+            <!-- Quiz choices -->
+            <div id="answerList">
+                <h4 class="choice" id="option1">Eddie George</h4>
+                <h4 class="choice" id="option1">Woody Hayes</h4>
+                <h4 class="choice" id="option1">Archie Griffin</h4>
+                <h4 class="choice" id="option1">Aubrey Taylor</h4>
+            </div>
+        </div>
     </div>
     <script src="./assets/js/style.js"></script>
 </body>
