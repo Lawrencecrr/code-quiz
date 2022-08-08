@@ -24,12 +24,49 @@ body {
 }
 
 .start-page {
+    display: none;
     width: 600px;
     max-width: 80%;
     background-color: var(--white);
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+}
+
+
+.questions {
+    width: 600px;
+    max-width: 80%;
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+
+.questions header {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-radius: 5px 5px;
+}
+
+.questions header .timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    background-color: var(--primary);
+    border: 3px solid var(--primarytwo);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.option {
+    padding: 5px;
+    margin: 5px;
+
 }
 
 
