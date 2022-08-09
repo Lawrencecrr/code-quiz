@@ -1,48 +1,48 @@
 const questionBank = [
 
     {
-        question: 'Which is NOT a primitive data type?',
+        question: 'Who is Ohio States career leader in rushing yards?',
         answersArray: [
-            { answer: 'array', correct: true },  // Correct
-            { answer: 'string', correct: false },
-            { answer: 'boolean', correct: false },
-            { answer: 'undefined', correct: false }]
+            { answer: 'Archie Griffin', correct: true },  // Correct
+            { answer: 'Ezekiel Elliott', correct: false },
+            { answer: 'Eddie George', correct: false },
+            { answer: 'J.K. Dobbins', correct: false }]
     },
 
     {// Updated 1/30/21
-        question: 'Which of these array methods returns an array?',
+        question: 'Who was the two time Heisman Trophy winner at Ohio State?',
         answersArray: [
-            { answer: 'Array.splice()', correct: true }, // Correct
-            { answer: 'Array.forEach()', correct: false },
-            { answer: 'Array.find()', correct: false },
-            { answer: 'Array.reduce()', correct: false }]
+            { answer: 'Archie Griffin', correct: true }, // Correct
+            { answer: 'Woody Hayes', correct: false },
+            { answer: 'Eddie George', correct: false },
+            { answer: 'Aubry Taylor', correct: false }]
     },
 
     { // Updated 1/30/21
-        question: 'What is the function of `Array.unshift()`?',
+        question: 'Who was the Buckeyes coach in 2007?',
         answersArray: [
-            { answer: 'Removes first element of array', correct: true },  // Correct
-            { answer: 'Removes last element of array', correct: false },
-            { answer: 'Adds element to end of array', correct: false },
-            { answer: 'Adds element to start of array', correct: false }]
+            { answer: 'Jim Tressel', correct: true },  // Correct
+            { answer: 'John Cooper', correct: false },
+            { answer: 'Woody Hayes', correct: false },
+            { answer: 'Urban Meyer', correct: false }]
     },
 
     {
-        question: 'Which of these statements returns the number 2?',
+        question: 'What is the capacity of Ohio Stadium?',
         answersArray: [
-            { answer: 'parseInt("2.9")', correct: true },  // Correct
-            { answer: 'Math.floor(1.9)', correct: false },
-            { answer: 'Math.round(2.9)', correct: false },
-            { answer: 'parseFloat("2.9")', correct: false }]
+            { answer: '102,780', correct: true },  // Correct
+            { answer: '99,015', correct: false },
+            { answer: '107,602', correct: false },
+            { answer: '110,100', correct: false }]
     },
 
     {
-        question: 'Which of the following is a comparison operator?',
+        question: 'Who was Ohio States opponent when they won their first Rose Bowl in 1950?',
         answersArray: [
-            { answer: '!==', correct: true },  // Correct
-            { answer: '=', correct: false },
-            { answer: '+=', correct: false },
-            { answer: '--', correct: false }]
+            { answer: 'california', correct: true },  // Correct
+            { answer: 'oregon', correct: false },
+            { answer: 'usc', correct: false },
+            { answer: 'Washington', correct: false }]
     }
 
 ];

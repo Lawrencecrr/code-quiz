@@ -45,14 +45,14 @@ a:hover {color: darkgray;}
     padding: 20px;
     text-align: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 10px 40px;
     box-shadow: 0 3px 10px 2px;
 }
 
 /* Button stylings, hover effect */
 .btn {
     border: 3px solid var(--main);
-    border-radius: 5px;
+    border-radius: 5px 20px;
     background-color: var(--main);
     padding: 15px 20px;
     margin: 15px;
